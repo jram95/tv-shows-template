@@ -1,7 +1,7 @@
-import { greet } from "./utils/greet";
+import AllEpisodes from "./components/AllEpisodes";
 
 function App() {
-  return <h1>{greet("World")}</h1>;
+  return <AllEpisodes />;
 }
 
 export default App;
